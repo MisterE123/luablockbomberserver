@@ -1,0 +1,19 @@
+For server:
+
+1) install lua5.1
+
+2) install luarocks
+
+3) build enet:
+
+$ git clone https://github.com/lsalzman/enet
+$ cd enet
+$ autoreconf -vfi
+as root:
+$ ./configure && make && make install
+
+4) install enet for lua5
+
+$ luarocks install enet
+
+5) 
